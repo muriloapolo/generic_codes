@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;          
+    background-color: #ccc;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+#paginate{
+    width: 100%;
+    margin: 32px auto;
+}
+#paginate .item{
+
+padding: 16px 32px;
+    border-bottom: 1px solid red;
+}
+#paginate .imgList{
+    width: 320px;
+}
+#paginate .item:hover{
+    background-color: aqua;
+}
+
+#paginate .pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+#paginate .pagination div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#paginate .pagination div:not(.numbers),
+#paginate .pagination div.numbers div{
+    width: 40px;
+    height: 40px;
+}
+#paginate .pagination div.numbers div:hover,
+#paginate .pagination div.numbers div.active{
+    color: rgb(225, 255, 0);
+}
