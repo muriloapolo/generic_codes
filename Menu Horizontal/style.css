@@ -1,0 +1,150 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body,
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/*Especificações do body*/
+body {
+
+    font-size: 16px;
+}
+
+.container {
+    background-color: #ccc;
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+/* Menu horizontal responsivo*/
+.menu-responsivo {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.555);
+    height: 80px;
+    align-items: center;
+    text-align: center;
+
+}
+
+/*Logo*/
+.logo {
+    line-height: 80px;
+    text-align: center;
+    height: 100%;
+
+}
+
+.logo .logo-link {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: background-color 0.6s;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.logo .logo-link:hover {
+    background-color: rgba(204, 204, 204, 0.233);
+}
+
+/* Botões do Menu*/
+
+
+.btn-responsivo button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+}
+
+.btn-responsivo button:active {
+    transform: scale(1.04);
+}
+
+/* Botão para abrir e fechar o menu*/
+.btn-responsivo-open {
+    font-size: 1.9em;
+    display: none;
+}
+
+
+
+/* Links menu horizontal */
+.navegacao-menu {
+    display: flex;
+    width: 50%;
+    height: 95%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    list-style-type: none;
+
+}
+
+.link-list .link-menu-a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4em;
+    padding: 10px 20px;
+}
+
+.link-list .link-menu-a:visited {
+    color: rgb(228, 228, 228);
+}
+
+.link-list .link-menu-a:hover {
+    background-color: rgba(248, 248, 248, 0.103);
+}
+
+.link-list .link-menu-a:active {
+    color: #000;
+}
+
+.active-link-menu-a {
+    border-bottom: 1px solid rgb(165, 157, 157);
+}
+
+
+
+
+
+
+
+
+
+
+
+.generic-section {
+
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+}
