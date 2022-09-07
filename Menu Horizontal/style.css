@@ -18,7 +18,6 @@ html:focus-within {
 
 /*Especificações do body*/
 body {
-
     font-size: 16px;
 }
 
@@ -32,9 +31,11 @@ body {
 
 /* Menu horizontal responsivo*/
 .menu-responsivo {
-    position: sticky;
+    /* Menu gruda no top*/
+    /* position: sticky;
     position: -webkit-sticky;
-    top: 0px;
+    top: 0px; */
+    /* Menu gruda no top*/
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -42,7 +43,6 @@ body {
     height: 80px;
     align-items: center;
     text-align: center;
-
 }
 
 /*Logo*/
@@ -50,7 +50,6 @@ body {
     line-height: 80px;
     text-align: center;
     height: 100%;
-
 }
 
 .logo .logo-link {
@@ -128,6 +127,46 @@ body {
     border-bottom: 1px solid rgb(165, 157, 157);
 }
 
+/* Formulário de busca*/
+.formulario-busca-menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-busca-menu input {
+    border: 0;
+    height: 30px;
+    padding: 4px 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.formulario-busca-menu input::placeholder {
+    color: rgb(185, 138, 138);
+    text-indent: 10px;
+}
+
+.formulario-busca-menu input:focus {
+    background-color: rgb(117, 221, 126);
+    outline: 0;
+    border: 0;
+}
+
+.formulario-busca-menu button {
+    padding: 7px;
+    border: 0;
+    background-color: rgb(144, 170, 48);
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
 
 
@@ -137,7 +176,7 @@ body {
 
 
 
-
+/* Apagar para estilizar com outras necessidades */
 .generic-section {
 
     min-height: 100vh;
