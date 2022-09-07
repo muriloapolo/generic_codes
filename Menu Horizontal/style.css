@@ -14,11 +14,8 @@ html,
 body,
 html:focus-within {
     scroll-behavior: smooth;
-}
-
-/*Especificações do body*/
-body {
     font-size: 16px;
+    position: relative;
 }
 
 .container {
@@ -88,6 +85,9 @@ body {
     display: none;
 }
 
+.active-link-menu-a {
+    border-bottom: 1px solid rgb(165, 157, 157);
+}
 
 
 /* Links menu horizontal */
@@ -123,9 +123,7 @@ body {
     color: #000;
 }
 
-.active-link-menu-a {
-    border-bottom: 1px solid rgb(165, 157, 157);
-}
+
 
 /* Formulário de busca*/
 .formulario-busca-menu {

@@ -6,54 +6,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style-menu-flutuante.css">
+
     <link rel="stylesheet" href="./responsividade.css">
     <title>Menu Horizontal</title>
 </head>
 
 <body>
+    <nav class="menu-responsivo">
+        <div class="logo">
+            <a class="logo-link" href="#">Sua Marca</a>
+        </div>
+        <div class="btn-responsivo">
+            <button class="btn-responsivo-open"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <ul class="navegacao-menu">
+            <li class="link-list">
+                <a class="link-menu-a active-link-menu-a" href="#home">Home</a>
+            </li>
+            <li class="link-list">
+                <a class="link-menu-a" href="#contato">Contato</a>
+            </li>
+            <li class="link-list">
+                <a class="link-menu-a" href="#servicos">Serviços</a>
+            </li>
+            <li class="link-list">
+                <a class="link-menu-a" href="#sobre">Sobre</a>
+            </li>
+        </ul>
+        <form action="" class="formulario-busca-menu">
+            <input type="search" name="busca-site" id="busca-site" placeholder="Pesquisa">
+            <button type="submit"><i class=" fa-solid fa-magnifying-glass"></i></button>
+        </form>
 
+
+        <!-- </div> -->
+    </nav>
     <div class="container">
-        <nav class="menu-responsivo">
-            <div class="logo">
-                <a class="logo-link" href="#">Sua Marca</a>
-            </div>
-            <div class="btn-responsivo">
-                <button class="btn-responsivo-open"><i class="fa-solid fa-bars"></i></button>
-            </div>
-            <ul class="navegacao-menu">
-                <li class="link-list">
-                    <a class="link-menu-a active-link-menu-a" href="#home">Home</a>
-                </li>
-                <li class="link-list">
-                    <a class="link-menu-a" href="#contato">Contato</a>
-                </li>
-                <li class="link-list">
-                    <a class="link-menu-a" href="#servicos">Serviços</a>
-                </li>
-                <li class="link-list">
-                    <a class="link-menu-a" href="#sobre">Sobre</a>
-                </li>
-            </ul>
-            <form action="" class="formulario-busca-menu">
-                <input type="search" name="busca-site" id="busca-site" placeholder="Pesquisa">
-                <button type="submit"><i class=" fa-solid fa-magnifying-glass"></i></button>
-            </form>
-
-
-            <!-- </div> -->
-        </nav>
         <!-- Sections -->
-        <section class="home-section generic-section" id="home">
-            <h1>Lorem, ipsum.</h1>
-            <p>Home</p>
-        </section>
-        <section class="home-section generic-section" id="home">
-            <h1>Lorem, ipsum.</h1>
-            <p>Home</p>
-        </section>
-        <section class="contato-section generic-section" id="contato">
+        <section class="contato-section generic-section" id="home">
             <h1>Lorem, ipsum.</h1>
             <p>contato</p>
+        </section>
+        <section class="home-section generic-section" id="contato">
+            <div class="nav-container-flutuante">
+                <nav class="navbar-flutuante">
+                    <div class="logo-flutuante">
+                        <a class="logo-link-flutuante" href="#">Sua Marca</a>
+                    </div>
+                    <div class="btn-responsivo-flutuante">
+                        <button class="btn-responsivo-open-flutuante"><i class="fa-solid fa-bars"></i></button>
+                    </div>
+                    <ul class="navegacao-menu-flutuante">
+                        <li class="link-list-flutuante">
+                            <a class="link-menu-a-flutuante active-link-menu-a-flutuante" href="#home">Home</a>
+                        </li>
+                        <li class="link-list-flutuante">
+                            <a class="link-menu-a-flutuante" href="#contato">Contato</a>
+                        </li>
+                        <li class="link-list-flutuante">
+                            <a class="link-menu-a-flutuante-flutuante" href="#servicos">Serviços</a>
+                        </li>
+                        <li class="link-list-flutuante">
+                            <a class="link-menu-a-flutuante" href="#sobre">Sobre</a>
+                        </li>
+                    </ul>
+                    <form action="" class="formulario-busca-menu-flutuante">
+                        <input type="search" name="busca-site-flutuante" id="busca-site-flutuante"
+                            placeholder="Pesquisa">
+                        <button type="submit"><i class=" fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </nav>
+            </div>
+
+            <h1>Menu Flutuante</h1>
+            <p>Home</p>
+
         </section>
         <section class="servicos-section generic-section" id="servicos">
             <h1>Lorem, ipsum.</h1>

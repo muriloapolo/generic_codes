@@ -11,7 +11,7 @@
 
     .navegacao-menu {
         position: absolute;
-        top: -900px;
+        top: -10px;
         opacity: 0;
     }
 
@@ -39,7 +39,12 @@
     text-align: right;
     opacity: 1;
     transition: opacity 0.3s;
+    z-index: 1;
 
+}
+
+.active-link-menu-a {
+    border-bottom: 1px solid rgb(165, 157, 157);
 }
 
 .active-menu-resposive .link-list {
