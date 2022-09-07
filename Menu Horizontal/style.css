@@ -36,10 +36,10 @@ html:focus-within {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.555);
-    height: 80px;
     align-items: center;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    height: 80px;
 }
 
 /*Logo*/
@@ -184,4 +184,5 @@ html:focus-within {
     flex-direction: column;
     align-items: center;
     border: 1px solid;
+    position: relative;
 }

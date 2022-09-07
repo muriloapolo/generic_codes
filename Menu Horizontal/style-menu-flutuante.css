@@ -1,27 +1,130 @@
-.nav-container-flutuante {}
+.nav-container-flutuante {
+    height: 120px;
+    width: 100%;
+    background-color: #fff;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
 
-.navbar-flutuante {}
+.navbar-flutuante {
+    width: 90%;
+    height: 60px;
+    background-color: rgb(146, 140, 140);
+    margin: auto auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-.logo-flutuante {}
+    position: sticky;
+    position: -webkit-sticky;
+    /* top: 20px; */
 
-.logo-link-flutuante {}
+}
 
-.btn-responsivo-flutuante {}
+.logo-flutuante {
+    line-height: 60px;
+    text-align: center;
+    /* height: 100%; */
+}
 
-.btn-responsivo-open-flutuante {}
+.logo-flutuante .logo-link-flutuante {
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: background-color 0.6s;
+    border-radius: 20px;
+    white-space: nowrap;
+}
 
-.navegacao-menu-flutuante {}
+.logo-flutuante .logo-link-flutuante:hover {
+    background-color: rgba(204, 204, 204, 0.233);
+}
 
-.link-list-flutuante {}
+.btn-responsivo-flutuante button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+}
 
-.link-menu-a-flutuante {}
+.btn-responsivo-flutuante button:active {
+    transform: scale(1.04);
+}
 
-.active-link-menu-a-flutuante {}
+/* Botão para abrir e fechar o menu*/
+.btn-responsivo-open-flutuante {
+    font-size: 1.8em;
+    display: none;
+}
 
-.link-list-flutuante {}
+.navegacao-menu-flutuante {
+    display: flex;
+    width: 50%;
+    height: 95%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    list-style-type: none;
+}
 
-.link-menu-a-flutuante {}
 
-.formulario-busca-menu-flutuante {}
 
-.busca-site-flutuante {}
+.link-list-flutuante .link-menu-a-flutuante {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4em;
+    padding: 10px 20px;
+}
+
+.active-link-menu-a-flutuante {
+    border-bottom: 1px solid rgb(165, 157, 157);
+}
+
+.formulario-busca-menu-flutuante {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-busca-menu-flutuante input {
+    border: 0;
+    height: 30px;
+    padding: 4px 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.formulario-busca-menu-flutuante input::placeholder {
+    color: rgb(185, 138, 138);
+    text-indent: 10px;
+}
+
+.formulario-busca-menu-flutuante input:focus {
+    background-color: rgb(117, 221, 126);
+    outline: 0;
+    border: 0;
+}
+
+.formulario-busca-menu-flutuante button {
+    padding: 7px;
+    border: 0;
+    background-color: rgb(144, 170, 48);
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
