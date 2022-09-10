@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(164, 180, 180);
+}
+
+.card-container {
+    width: 90%;
+    height: 100%;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+.card-wrapper {
+    width: 100%;
+    border: 1px solid;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+
+.card-frame {
+    width: 100px;
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    position: relative;
+
+    box-shadow: 2px 10px 5px rgba(122, 108, 108, 0.315), 0 0 15px rgba(0, 0, 0, 0.89);
+    transition: all 0.5s;
+}
+
+.card-frame.show-card-frame {
+    width: 420px;
+    transition: 1s;
+}
+
+.card-frame.show-card-frame > .show-card-body {
+    transform: translateX(0);
+    margin-right: 2px;
+    transition: 0.2s;
+    opacity: 1;
+}
+
+/* .card-body.show-card-body {
+    transform: translateX(0);
+    transition: 0.2s;
+    opacity: 1;
+} */
+
+
+.card-image {
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+    object-fit: fill;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.card-body {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+    z-index: 90;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-400px);
+    opacity: 0;
+    background-color: bisque;
+}
+
+
+.img-card {
+    width: 450px;
+    height: 100%;
+}
+
+
+
+.card-header {
+    margin-top: 20px;
+    font-size: 0.7em;
+    text-align: left;
+    padding: 0px;
+}
+
+.card-body-text {
+    font-size: 0.9em;
+}
+
+.card-body-text p {
+    margin-bottom: 2px;
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+    padding: 20px;
+}
+
+.footer-card .ico {
+    display: block;
+    padding: 16px;
+}
