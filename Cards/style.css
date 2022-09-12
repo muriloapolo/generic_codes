@@ -42,7 +42,7 @@
     flex-direction: row;
     height: 100%;
     position: relative;
-    outline: 1px solid saddlebrown;
+
     margin-right: 3px;
     box-shadow: 2px 10px 5px rgba(122, 108, 108, 0.315), 0 0 15px rgba(0, 0, 0, 0.89);
     transition: all 0.5s;
