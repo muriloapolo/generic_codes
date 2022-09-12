@@ -1,45 +1,45 @@
 //Array de itens para paginação
 //Para adicionar mais itens à lista, crie mais um objeto para preencher a lista
 const itensLoja = [{
-        titulo: "Nome do Item",
-        imagem: "./img/1.jpg",
-        descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
-    },
-    {
-        titulo: "Nome do Item",
-        imagem: "./img/2.jpg",
-        descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
-    },
-    {
-        titulo: "Nome do Item",
-        imagem: "./img/3.jpg",
-        descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
-    },
-    {
-        titulo: "Nome do Item",
-        imagem: "./img/4.jpg",
-        descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
-    },
-    {
-        titulo: "Nome do Item",
-        imagem: "./img/5.jpg",
-        descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
-    },
-    {
-        titulo: "Nome do Item",
-        imagem: "./img/6.jpg",
-        descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
-    },
-    {
-        titulo: "Nome do Item",
-        imagem: "./img/7.jpg",
-        descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
-    },
-    {
-        titulo: "Nome do Item",
-        imagem: "./img/8.jpg",
-        descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
-    },
+    titulo: "Nome do Item",
+    imagem: "./img/1.jpg",
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
+},
+{
+    titulo: "Nome do Item",
+    imagem: "./img/2.jpg",
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
+},
+{
+    titulo: "Nome do Item",
+    imagem: "./img/3.jpg",
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
+},
+{
+    titulo: "Nome do Item",
+    imagem: "./img/4.jpg",
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
+},
+{
+    titulo: "Nome do Item",
+    imagem: "./img/5.jpg",
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
+},
+{
+    titulo: "Nome do Item",
+    imagem: "./img/6.jpg",
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
+},
+{
+    titulo: "Nome do Item",
+    imagem: "./img/7.jpg",
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
+},
+{
+    titulo: "Nome do Item",
+    imagem: "./img/8.jpg",
+    descricao: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, vel!"
+},
 
 
 
@@ -56,14 +56,14 @@ const data = itensLoja.map(((item) => `<h2>${item.titulo}</h2> <img class="imgLi
 //Criar lista na página //DOM
 
 //function populateList() {
-    /* MAP */
-    //Gera a lista de itens do array principal e os imprime na página para gerar a lista de produtos
-    //const data = itensLoja.map(((item) => `<div class="item"> <h2>${item.titulo}</h2> <img class="imgList" src="${item.imagem}" alt=""> <p class="descricaoItem">${item.descricao}</p></div>`));
- 
-    //Captura as divs necessárias para inserir na página
-    //const list = document.querySelector('#paginate .list');
-    //.join("") Apenas para corrigir possíveis erros
-    //list.innerHTML = data.join("");
+/* MAP */
+//Gera a lista de itens do array principal e os imprime na página para gerar a lista de produtos
+//const data = itensLoja.map(((item) => `<div class="item"> <h2>${item.titulo}</h2> <img class="imgList" src="${item.imagem}" alt=""> <p class="descricaoItem">${item.descricao}</p></div>`));
+
+//Captura as divs necessárias para inserir na página
+//const list = document.querySelector('#paginate .list');
+//.join("") Apenas para corrigir possíveis erros
+//list.innerHTML = data.join("");
 
 //}
 // populateList()

@@ -6,38 +6,43 @@
 
 body {
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;          
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #ccc;
     height: 100vh;
 }
-header{
+
+header {
     display: flex;
     justify-content: center;
     padding: 16px;
 }
 
-#paginate{
+#paginate {
     width: 100%;
     margin: 32px auto;
 }
-#paginate .item{
 
-padding: 16px 32px;
+#paginate .item {
+
+    padding: 16px 32px;
     border-bottom: 1px solid red;
 }
-#paginate .imgList{
+
+#paginate .imgList {
     width: 320px;
 }
-#paginate .item:hover{
+
+#paginate .item:hover {
     background-color: aqua;
 }
 
-#paginate .pagination{
+#paginate .pagination {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 8px;
 }
+
 #paginate .pagination div {
     cursor: pointer;
     display: flex;
@@ -47,11 +52,12 @@ padding: 16px 32px;
 }
 
 #paginate .pagination div:not(.numbers),
-#paginate .pagination div.numbers div{
+#paginate .pagination div.numbers div {
     width: 40px;
     height: 40px;
 }
+
 #paginate .pagination div.numbers div:hover,
-#paginate .pagination div.numbers div.active{
+#paginate .pagination div.numbers div.active {
     color: rgb(225, 255, 0);
 }
